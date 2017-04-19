@@ -10,14 +10,14 @@ public class ReportCard {
     final private String STUDENT_NAME;
     final private int YEAR;
     final private int GRADE;
-    ArrayList<Integer> mReadingGrades;
-    ArrayList<Integer> mMathematicsGrades;
-    ArrayList<Integer> mScienceGrades;
-    ArrayList<Integer> mArtGrades;
-    ArrayList<Integer> mMusicGrades;
-    ArrayList<Integer> mAttendancePresent;
-    ArrayList<Integer> mAttendanceAbsent;
-    ArrayList<Integer> mAttendanceTardy;
+    private ArrayList<Integer> mReadingGrades;
+    private ArrayList<Integer> mMathematicsGrades;
+    private ArrayList<Integer> mScienceGrades;
+    private ArrayList<Integer> mArtGrades;
+    private ArrayList<Integer> mMusicGrades;
+    private ArrayList<Integer> mAttendancePresent;
+    private ArrayList<Integer> mAttendanceAbsent;
+    private ArrayList<Integer> mAttendanceTardy;
 
     public ReportCard (String studentName, int grade, int year){
         STUDENT_NAME = studentName;
