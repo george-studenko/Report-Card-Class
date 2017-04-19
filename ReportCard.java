@@ -7,9 +7,9 @@ import java.util.ArrayList;
  */
 
 public class ReportCard {
-    final private String STUDENT_NAME;
-    final private int YEAR;
-    final private int GRADE;
+    final private String mStudentName;
+    final private int mYear;
+    final private int mGrade;
     private ArrayList<Integer> mReadingGrades;
     private ArrayList<Integer> mMathematicsGrades;
     private ArrayList<Integer> mScienceGrades;
@@ -20,9 +20,9 @@ public class ReportCard {
     private ArrayList<Integer> mAttendanceTardy;
 
     public ReportCard (String studentName, int grade, int year){
-        STUDENT_NAME = studentName;
-        YEAR = year;
-        GRADE = grade;
+        mStudentName = studentName;
+        mYear = year;
+        mGrade = grade;
     }
 
     public ReportCard (String studentName, int grade, int year, ArrayList<Integer> readingGrades,
@@ -30,9 +30,9 @@ public class ReportCard {
                        ArrayList<Integer> artGrades, ArrayList<Integer> musicGrades,
                        ArrayList<Integer> attendancePresent, ArrayList<Integer> attendanceAbsent,
                        ArrayList<Integer> attendanceTardy){
-        STUDENT_NAME = studentName;
-        YEAR = year;
-        GRADE = grade;
+        mStudentName = studentName;
+        mYear = year;
+        mGrade = grade;
         mReadingGrades = readingGrades;
         mMathematicsGrades = mathematicsGrades;
         mScienceGrades = scienceGrades;
@@ -44,15 +44,15 @@ public class ReportCard {
     }
 
     public String getStudentName(){
-        return STUDENT_NAME;
+        return mStudentName;
     }
 
     public int getYear(){
-        return YEAR;
+        return mYear;
     }
 
     public int getGrade(){
-        return GRADE;
+        return mGrade;
     }
 
     /**
