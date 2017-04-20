@@ -130,6 +130,38 @@ public class ReportCard {
         mScienceGrades.add(period--,grade);
     }
 
+    public ArrayList<Integer> getmReadingGrades() {
+        return mReadingGrades;
+    }
+
+    public ArrayList<Integer> getmMathematicsGrades() {
+        return mMathematicsGrades;
+    }
+
+    public ArrayList<Integer> getmScienceGrades() {
+        return mScienceGrades;
+    }
+
+    public ArrayList<Integer> getmArtGrades() {
+        return mArtGrades;
+    }
+
+    public ArrayList<Integer> getmMusicGrades() {
+        return mMusicGrades;
+    }
+
+    public ArrayList<Integer> getmAttendancePresent() {
+        return mAttendancePresent;
+    }
+
+    public ArrayList<Integer> getmAttendanceAbsent() {
+        return mAttendanceAbsent;
+    }
+
+    public ArrayList<Integer> getmAttendanceTardy() {
+        return mAttendanceTardy;
+    }
+
     /**
      *
      * @return Science grades for all periods
@@ -140,6 +172,7 @@ public class ReportCard {
             output= output + "\t"+mScienceGrades.get(i);
         }
         return output;
+
     }
 
     // ART
