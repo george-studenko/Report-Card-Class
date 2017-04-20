@@ -130,35 +130,35 @@ public class ReportCard {
         mScienceGrades.add(period--,grade);
     }
 
-    public ArrayList<Integer> getmReadingGrades() {
+    public ArrayList<Integer> getReadingGrades() {
         return mReadingGrades;
     }
 
-    public ArrayList<Integer> getmMathematicsGrades() {
+    public ArrayList<Integer> getMathematicsGrades() {
         return mMathematicsGrades;
     }
 
-    public ArrayList<Integer> getmScienceGrades() {
+    public ArrayList<Integer> getScienceGrades() {
         return mScienceGrades;
     }
 
-    public ArrayList<Integer> getmArtGrades() {
+    public ArrayList<Integer> getArtGrades() {
         return mArtGrades;
     }
 
-    public ArrayList<Integer> getmMusicGrades() {
+    public ArrayList<Integer> getMusicGrades() {
         return mMusicGrades;
     }
 
-    public ArrayList<Integer> getmAttendancePresent() {
+    public ArrayList<Integer> getAttendancePresent() {
         return mAttendancePresent;
     }
 
-    public ArrayList<Integer> getmAttendanceAbsent() {
+    public ArrayList<Integer> getAttendanceAbsent() {
         return mAttendanceAbsent;
     }
 
-    public ArrayList<Integer> getmAttendanceTardy() {
+    public ArrayList<Integer> getAttendanceTardy() {
         return mAttendanceTardy;
     }
 
